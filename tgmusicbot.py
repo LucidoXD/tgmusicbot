@@ -68,7 +68,7 @@ REGEX_EXCLUDE_URL = (
 
 def get_music_chats():
     chats = []
-    for x in os.environ["MUSIC_CHATS"].split(" "):
+    for x in os.environ["MUSIC_CHATS"].split("-1002049466903"):
         try:
             chats.append(int(x))
         except ValueError:
